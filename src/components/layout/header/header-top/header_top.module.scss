@@ -1,0 +1,9 @@
+.top_header{
+    background-color: orange;
+    .top_header_container{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

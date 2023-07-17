@@ -1,0 +1,15 @@
+.header {
+  border-bottom: 2px solid orange;
+  background-color: white;
+
+  .nav {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  a {
+    &:hover {
+      color: orange !important;
+    }
+  }
+}
