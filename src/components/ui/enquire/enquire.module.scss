@@ -1,0 +1,21 @@
+.enquire_btn{
+    position: fixed;
+    left: 2PX;
+    top: 40%;
+    writing-mode: vertical-lr;
+    z-index: 10;
+    button{
+        padding: 4px 5px;
+        text-orientation: upright;
+        height: 30px;
+        overflow: hidden;
+        border-radius: 50%;
+        transition: 0S !important;
+        
+        &:hover{
+            border-radius: 0;
+            overflow:visible;
+            height: fit-content;
+        }
+    }
+}

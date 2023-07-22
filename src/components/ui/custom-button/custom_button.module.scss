@@ -1,12 +1,11 @@
 .custom_button {
   padding: 5px 20px;
-  background-color: $color_primary;
+  background-color: $color_primary_orange;
   border: none;
-  border-radius: 20px;
   color: $color_primary_light;
 
   &:hover {
-    transform: scale(1.02);
+    background-color: $color_primary_blue;
   }
 
   a {

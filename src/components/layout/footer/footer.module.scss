@@ -1,0 +1,46 @@
+.footer {
+  background-color: grey;
+  color: rgb(19, 18, 18);
+  padding: 20px 0px;
+
+  .logo_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 20px;
+    h1{
+        margin: 0;
+        // color: $color_primary_o;
+    }
+  }
+
+  .col{
+    padding-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+    color: black;
+    // font-weight: 600;
+    color: white;
+  }
+  p {
+    font-weight: 100;
+    margin: 4px 0px;
+    font-size: 14px;
+  }
+
+  a{
+    font-weight: 100;
+    margin: 4px 0px;
+    font-size: 14px;
+    display: block;
+
+    &:hover{
+        color: $color_primary_orange !important;
+    }
+  }
+  
+}
